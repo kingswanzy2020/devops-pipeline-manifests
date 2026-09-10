@@ -22,7 +22,7 @@ spec:
     spec:
       containers:
         - name: devops-app
-          image: ahmed3015/devops-pipeline-app:latest
+          image: ahmed3015/devops-pipeline-app:2
           ports:
             - containerPort: 5000
           env:
